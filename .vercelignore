@@ -1,0 +1,6 @@
+*.md
+*.test.*
+*.spec.*
+test/
+tests/
+src/tests/
