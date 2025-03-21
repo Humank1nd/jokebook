@@ -3,15 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "license": "MIT",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "typecheck": "tsc --noEmit",
-    "test:e2e": "testcafe edge src/tests/",
-    "test:e2e-gh": "testcafe edge:headless src/tests/"
-  },
+"scripts": {
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint",
+  "typecheck": "tsc --noEmit",
+  "test:e2e": "testcafe edge src/tests/",
+  "test:e2e-gh": "testcafe edge:headless src/tests/"
+},
+
   "dependencies": {
     "@emotion/cache": "^11.14.0",
     "@emotion/react": "^11.14.0",
