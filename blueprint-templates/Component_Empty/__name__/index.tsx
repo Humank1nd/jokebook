@@ -1,15 +1,13 @@
-import { Typography, useTheme } from '@mui/material';
+// src/components/organisms/HomeWall/index.tsx
 
+import { Typography, useTheme } from '@mui/material';
 import { StyledRoot } from './styles';
 
-import { {{ name }}Props } from './types';
-
-export default function { { name } } ({ sx, ...rootProps }: {{ name }}Props) {
+export default function HomeWall({ sx, ...rootProps }) {
   const theme = useTheme();
   return (
     <StyledRoot sx={sx} {...rootProps}>
-      <Typography>{{ name }}</Typography>
+      <Typography>HomeWall</Typography>
     </StyledRoot>
   );
 }
-
