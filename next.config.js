@@ -7,7 +7,7 @@ const nextConfig = {
   compiler: {
     emotion: true,
   },
-  output: 'export', // <-- ✅ ADD THIS
+  // output: 'export', // <-- ✅ ADD THIS
   eslint: {
     ignoreDuringBuilds: true,
   },
